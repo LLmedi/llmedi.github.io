@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/a137d675ae.js" crossorigin="anonymous"></script>
     <title>Luis Medina</title>
     <script type="module" crossorigin src="/assets/index.92f8cb6a.js"></script>
-    <link rel="stylesheet" href="/assets/index.38f06e64.css">
+    <link rel="stylesheet" href="/assets/index.72e0bcd1.css">
   </head>
   <body>
 
@@ -31,10 +31,11 @@
 
       <blockquote></blockquote>
 
+      <div class="profile">
+        <img src="/assets/luis.da39b54f.png">
+      </div>
 
-      
-
-      <section>
+      <section class="left">
         <h2>About Me</h2>
         <p>My journey began when received my first computer at 12 years old: an old hand-me-down running Windows XP. 
           Exploring their capabilities, I have probably used a computer every day since. 
@@ -51,40 +52,116 @@
           rig and texture simple models in <span class="highlight">Blender</span> which I have then imported into the <span class="highlight">Unreal Engine 5.</span></p>
       </section>
 
-      <div class="profile">
-        <img src="/assets/luis.da39b54f.png">
-      </div>
+      
 
       <blockquote><p>Things I've Worked On</p></blockquote>
 
-      <section>
-        <h2>SEA - Scanning and Enumeration Automation</h2>
-        <p>
-          A Linux application  that allows a pen testing analyst to automatically run a batch of tools such as nmap, 
-          nikto, nessus and produce reports of the results.
-        </p>
-        <ul>
-          <li>As the <span class="highlight">lead programmer</span>, I designed the initial prototype.</li>
-          <li>Used PyQt for the GUI and MongoDB to store configuration and tool results.</li>
-          <li>Responsible for implementing ability to control external tools.</li>
-          <li>Responsible for implementing tool output into app GUI.</li>
-          <li>Received compliments from <span class="highlight">client team and professors</span> for having the best project in our class.</li>
-        </ul>
-      </section>
-
-      <div class="project-img">
-        <img src="/assets/SEA-output-UI.3483e37d.png">
-        <p class="img-caption">SEA GUI showing Nmap's output</p>
-      </div>
-
-      <!-- <section>
-        <h2>Project 2</h2>
-      </section>
-      -->
+      <!-- SwE Projects -->
+      <h2 class="section-title">Academic</h2>
+      <div class="slideshow-container">
+        <div class="slide-swe fade">
+          <div class="slide-img">
+            <div class="numbertext">1 / 3</div>
+              <img src="/assets/SEA-output-UI.3483e37d.png">
+            <div class="caption">SEA GUI showing Nmap's output</div>
+          </div>
+          <div class="slide-text">
+            <h3>SEA - Scanning and Enumeration Automation</h3>
+            <p>A Linux application  that allows a pen testing analyst to automatically run a batch of tools such as nmap, 
+              nikto, nessus and produce reports of the results.</p>
+            <ul>
+              <li>As the <span class="highlight">lead programmer</span>, I designed the initial prototype.</li>
+              <li>Used PyQt for the GUI and MongoDB to store configuration and tool results.</li>
+              <li>Responsible for implementing ability to control external tools.</li>
+              <li>Responsible for implementing tool output into app GUI.</li>
+              <li>Received compliments from <span class="highlight">client team and professors</span> for having the best project in our class.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
       
+          <!-- The dots/circles -->
+        <!-- <div class="dot-row">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+      </div>
+      
+    <!-- Game Dev Projects -->
+    <h2 class="section-title">Game Dev</h2>
+    <div class="slideshow-container">
+      <!-- Slide 1 -->
+      <div class="slide-gamedev fade">
+        <div class="slide-img">
+          <div class="numbertext">1 / 3</div>
+          <img src="/assets/ghost-runner.ee3b3c4b.png">
+          <div class="caption">The player at the start of the game</div>
+        </div>
+        <div class="slide-text">
+          <h3>Ghost Run</h3>
+          <p>An endless 2D side-scroller built with the Unity game engine using C#. 
+            The player takes control of a ghost and must traverse a world of randomly spawned enemies and platforms.
+            The player must manage the use of their limited intagibility to either pass through platforms or to fight enemies.
+          </p>
+          <ul>
+            <li>For this project, I recruited a team of artists and programmers then led the team in the creation of a 2D game using the Unity game engine.</li>
+            <li>As project manager, I assessed the larger task and designed smaller goals for my team to follow.</li>
+            <li>As the most experienced with the engine, I directed my team on the software. </li>
+            <li>As the lead programmer, implemented the following features:</li>
+              <ul>
+                <li style="list-style-type: circle;">Collision detection (Player-enemy, ground/platform)</li>
+                <li style="list-style-type: circle;">Player Life/death mechanic</li>
+                <li style="list-style-type: circle;">Enemy AI</li>
+                <li style="list-style-type: circle;">Randomized enemy and platform spawn logic</li>
+                <li style="list-style-type: circle;">Background paralax scrolling</li>
+              </ul>
+          </ul>
+        </div>
+      </div> 
+
+<!--       <div class="slide-gamedev fade">
+        <div class="slide-img">
+          <div class="numbertext">2 / 3</div>
+          <img src="/assets/ghost-runner.png">
+          <div class="caption">Caption Text</div>
+        </div>
+        <div class="slide-text">
+          <h3>Title 2</h3>
+          <p>Hello!</p>
+        </div>
+      </div>
+      
+      <div class="slide-gamedev fade">
+        <div class="slide-img">
+          <div class="numbertext">3 / 3</div>
+          <img src="/assets/ghost-runner.png">
+          <div class="caption">Caption Text</div>
+        </div>
+        <div class="slide-text">
+          <h3>Title 3</h3>
+          <p>Hello!</p>
+        </div>
+      </div> -->
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    
+        <!-- The dots/circles -->
+      <!-- <div class="dot-row">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div> -->
+
+    </div>
+
+    
 
       <blockquote>
-        <p>More projects to come!</p>
+        <p>Currently adding more projects!</p>
       </blockquote>
 
       <section class="left">
@@ -125,22 +202,6 @@
     </main>
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="/scripts/slideShow.js"></script>
   </body>
 </html>
